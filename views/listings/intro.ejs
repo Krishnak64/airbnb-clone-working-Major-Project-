@@ -1,0 +1,98 @@
+<% layout("/layouts/boilerplate") %>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #628ad0;
+      color: #000000;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .skills {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .skill {
+      background:#628ad0;
+      color: rgb(255, 255, 255);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+    .col {
+        border-radius: 13px;
+        background: #628ad0;
+        color: white;
+        width: 85px;
+    }
+    .col:hover {
+        background: #ffffff;
+        color: #000000;
+    }
+   
+  </style>
+
+  <header>
+    <h1><b>About Me </b></h1>
+  </header>
+
+  <div class="container">
+    <h2><b>Hello, I'm Krishna 👋</b></h2>
+    <p>
+      I'm a passionate web developer who recently built a fully functional 
+      <strong>Airbnb clone project</strong>.  
+      I enjoy creating full-stack applications, focusing on clean design, 
+      scalability, and real-world usability.
+    </p>
+
+    <h2><b>My Skills</b></h2>
+    <div class="skills">
+      <span class="skill"><b>HTML</b></span>
+      <span class="skill"><b>CSS</span>
+      <span class="skill"><b>JavaScript</b></span>
+      <span class="skill"><b>Node.js</b></span>
+      <span class="skill"><b>Express</b></span>
+      <span class="skill"><b>MongoDB</b></span>
+      <span class="skill"><b>Bootstrap</b></span>
+
+    </div>
+
+    <h2><b>Future Goals 🚀</b></h2>
+    <p>
+      I want to keep improving my skills, work on advanced MERN stack projects,
+      and explore cloud deployments to build production-ready applications.
+    </p>
+
+    <h2><b>Contact Me</b></h2>
+    <p>Email: <a href="#">hello@example.com</a></p>
+    <p>GitHub: <a href="#" target="_blank">github.com/yourusername</a></p>
+    <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/yourusername</a></p>
+  </div>
+
+  <form action="/listings">
+    <div >
+        <button class="col btn-shape">Next</button>
+    </div>
+  </form>
+
+
